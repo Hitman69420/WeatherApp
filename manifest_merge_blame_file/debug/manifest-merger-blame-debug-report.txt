@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\Weather_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Weather_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" >
+11-->D:\Weather_app\app\src\main\AndroidManifest.xml:5:5-7:23
+11-->D:\Weather_app\app\src\main\AndroidManifest.xml:5:22-64
+12    </uses-permission>
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Weather_app\app\src\main\AndroidManifest.xml:9:5-79
+13-->D:\Weather_app\app\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\Weather_app\app\src\main\AndroidManifest.xml:10:5-81
+14-->D:\Weather_app\app\src\main\AndroidManifest.xml:10:22-78
+15
+16    <application
+16-->D:\Weather_app\app\src\main\AndroidManifest.xml:14:5-44:19
+17        android:allowBackup="true"
+17-->D:\Weather_app\app\src\main\AndroidManifest.xml:15:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] D:\UDEMY\Android studio\caches\transforms-3\249713548fb8d92d9c56becf07cdffea\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->D:\Weather_app\app\src\main\AndroidManifest.xml:16:9-65
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->D:\Weather_app\app\src\main\AndroidManifest.xml:17:9-54
+23        android:icon="@drawable/partly_cloudy"
+23-->D:\Weather_app\app\src\main\AndroidManifest.xml:18:9-47
+24        android:label="@string/app_name"
+24-->D:\Weather_app\app\src\main\AndroidManifest.xml:19:9-41
+25        android:roundIcon="@drawable/partly_cloudy"
+25-->D:\Weather_app\app\src\main\AndroidManifest.xml:20:9-52
+26        android:supportsRtl="true"
+26-->D:\Weather_app\app\src\main\AndroidManifest.xml:21:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Weather" >
+28-->D:\Weather_app\app\src\main\AndroidManifest.xml:22:9-45
+29        <activity
+29-->D:\Weather_app\app\src\main\AndroidManifest.xml:24:9-30:20
+30            android:name="com.example.weather.city_search"
+30-->D:\Weather_app\app\src\main\AndroidManifest.xml:25:13-40
+31            android:exported="false" >
+31-->D:\Weather_app\app\src\main\AndroidManifest.xml:26:13-37
+32            <meta-data
+32-->D:\Weather_app\app\src\main\AndroidManifest.xml:27:13-29:36
+33                android:name="android.app.lib_name"
+33-->D:\Weather_app\app\src\main\AndroidManifest.xml:28:17-52
+34                android:value="" />
+34-->D:\Weather_app\app\src\main\AndroidManifest.xml:29:17-33
+35        </activity>
+36        <activity
+36-->D:\Weather_app\app\src\main\AndroidManifest.xml:31:9-43:20
+37            android:name="com.example.weather.MainActivity"
+37-->D:\Weather_app\app\src\main\AndroidManifest.xml:32:13-41
+38            android:exported="true" >
+38-->D:\Weather_app\app\src\main\AndroidManifest.xml:33:13-36
+39            <intent-filter>
+39-->D:\Weather_app\app\src\main\AndroidManifest.xml:34:13-38:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Weather_app\app\src\main\AndroidManifest.xml:35:17-69
+40-->D:\Weather_app\app\src\main\AndroidManifest.xml:35:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Weather_app\app\src\main\AndroidManifest.xml:37:17-77
+42-->D:\Weather_app\app\src\main\AndroidManifest.xml:37:27-74
+43            </intent-filter>
+44
+45            <meta-data
+45-->D:\Weather_app\app\src\main\AndroidManifest.xml:27:13-29:36
+46                android:name="android.app.lib_name"
+46-->D:\Weather_app\app\src\main\AndroidManifest.xml:28:17-52
+47                android:value="" />
+47-->D:\Weather_app\app\src\main\AndroidManifest.xml:29:17-33
+48        </activity>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+52            android:authorities="com.example.weather.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.0.0] D:\UDEMY\Android studio\caches\transforms-3\534a23b582687ff41a7186a04e3a238c\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\UDEMY\Android studio\caches\transforms-3\0d1c36957947c0cced820087c8164150\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\UDEMY\Android studio\caches\transforms-3\0d1c36957947c0cced820087c8164150\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\UDEMY\Android studio\caches\transforms-3\0d1c36957947c0cced820087c8164150\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
